@@ -1,0 +1,34 @@
+What:
+    What is git? 
+    - Git là một hệ thống quản lý phiên bản phân tán.
+    - Git là một hệ thống phân tán, có nghĩa là mỗi người dùng có một bản sao của kho lưu trữ. 
+    Điều này giúp người dùng có thể làm việc độc lập mà không cần kết nối với máy chủ.
+Who:
+    Who often uses git?
+    - Được sử dụng bởi các lập trình viên, nhà phát triển và các chuyên gia khác để quản lý các dự án mã nguồn.
+Why:
+    Why use git?
+    - Git là một công cụ mạnh mẽ có thể giúp bạn quản lý các dự án mã nguồn của mình một cách hiệu quả.
+Where:
+    Where to use git?
+    - Sử dụng trong các project, các công ty,...
+When:
+    When to use git?
+    - Khi làm việc với mã nguồn, đặc biệt nếu bạn đang làm việc trong một nhóm.
+How:
+    How to use git?
+    - Tạo 1 Repository.
+    - Làm việc trên Git qua các lệnh.
+Một số lệnh cơ bản:
+    - git init: Tạo 1 kho lưu trữ git mới trong thư mục hiện tại.
+    - git clone + < địa chỉ URL của kho lưu trữ> : để sao chép 1 kho lữu trữ git từ máy chủ từ xa.
+    - git add <tên têp>: Để thêm các tệp thay đổi vào vùng đệm
+    - git commit -m"<thông điệp ghi chú>": tạo một bản ghi nhận các thay đổi trong vùng đệm.
+    - git status: để kiểm tra trạng thái của kho lưu trữ.
+    - git log: xem lịch sử của kho lưu trữ.
+    - git push: để đẩy các thay đổi lên máy chủ từ xa.
+    - git pull: kéo các thay đổi từ xa xuống máy tính của bạn.
+    - git checkout<tên nhánh>: để chuyển sang một nhánh khác.
+    - git branch<tên nhánh>: tạo một nhánh mới.
+    - git reset: đặt lại trạng thái của kho lưu trữ.
+    - git revert: hủy bỏ các thay đổi.
