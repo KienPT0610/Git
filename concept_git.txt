@@ -39,4 +39,4 @@ New Week 2:
     - git switch <branch name>: Chuyển sang branch khác.
     - git branch: Xem có các branch nào và đang ở branch nào.
     - git merge <name branch>: merge name_branch đó vào branch hiện tại đang ở.
-    - ls: xem các file trong branch.
+    - ls: xem các file hiện tại của hệ thống.
