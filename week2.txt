@@ -1,0 +1,28 @@
+workspace = repository + branch
+
+Git branch:
+What:
+    Nhánh trong git là gì? 
+    - trong repository chia thành nhiều nhánh. (mỗi người làm 1 việc riêng sẽ là 1 nhánh)
+    - repository: đầu ra (slide + tt + nội dung ...)
+    - workspace: mỗi nhánh khác nhau là khác nhau, làm công việc, chức năng khác nhau.
+    
+Why:
+    Tại sao dùng branch làm gì?
+    - có làm nhiều việc khác nhau song song
+    - dễ dàng già soát.
+Note: 
+    - để ghép 2 branch lại với nhau dùng lệnh (git merger).
+How:
+    - Tạo branch mới:
+        + git branch <branch name>: tạo nhánh mới từ nhánh hiện tại.
+        + git checkout -b <branch name>: tạo 1 nhánh mới từ nhánh hiện tại và đồng thời chuyển luôn qua branch mới tạo.
+    - branch mới được tạo sẽ chứa toàn bộ code của branch cũ.
+    - Chuyển giữa các br:
+        + git switch <name>:
+            *nếu muốn switch ra ngoài cần phải add và commit các sự thay đổi trong code nếu không git sẽ không cho chuyển
+        + git checkout <name>:
+        * về cơ bản hai lệnh này giống nhau.
+    - Hợp nhất branch:
+        + lệnh git merger:
+        + Trên git để mer 2 bran cần thao tác tạo PR(pull request)
