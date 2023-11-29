@@ -25,4 +25,4 @@ How:
         * về cơ bản hai lệnh này giống nhau.
     - Hợp nhất branch:
         + lệnh git merger:
-        + Trên git để mer 2 bran cần thao tác tạo PR(pull request)
+        + Trên git để mer 2 bran cần thao tác tạo PR(pull request).

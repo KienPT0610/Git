@@ -32,3 +32,11 @@ Một số lệnh cơ bản:
     - git branch<tên nhánh>: tạo một nhánh mới.
     - git reset: đặt lại trạng thái của kho lưu trữ.
     - git revert: hủy bỏ các thay đổi.
+New Week 2:
+    - git branch <branch name>: Tạo 1 branch mới
+    - git checkout -b <branch name>: Tạo 1 branch mới và chuyển sang branch đó.
+    - git checkout <branch name>: Chuyển sang branch khác.
+    - git switch <branch name>: Chuyển sang branch khác.
+    - git branch: Xem có các branch nào và đang ở branch nào.
+    - git merge <name branch>: merge name_branch đó vào branch hiện tại đang ở.
+    - ls: xem các file trong branch.
