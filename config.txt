@@ -1,0 +1,3 @@
+- Dùng lệnh git pull origin <branch_name> để lấy code mới nhất trên git về máy sau đó mới thực hiện code tiếp
+- Nếu code trên máy và code trên git khác nhau thì chúng ta phải config lại code
+- Lệnh này lúc nào cũng phải thực hiện đầu tiên khi bắt đầu thao tác với code nhằm đảm bảo code trên máy không bị sai lệch so với git
