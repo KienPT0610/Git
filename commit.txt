@@ -1,0 +1,9 @@
+//commit
+
+git commit convention
+Why: để giải thích tại sao?
+How:
+
+<type>[optional scope]: <>
+Tại sao cần viêt commit tốt.
+

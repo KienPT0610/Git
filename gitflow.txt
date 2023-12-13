@@ -20,3 +20,7 @@ develop:
 feature:
     Được base trên branchs Develop. 
     Mỗi khi phát triển một feature mới chúng ta cần tạo một branchs để việt mã nguồn cho từng feature.
+
+
+hotfix:
+    sau khi hotfix cần đánh tag.
