@@ -7,3 +7,7 @@ How:
 <type>[optional scope]: <>
 Tại sao cần viêt commit tốt.
 
+[MIC-128] add new get customer api
+
+note: tim hieu file .gitignore;
+
