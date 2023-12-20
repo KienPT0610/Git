@@ -4,9 +4,16 @@ git commit convention
 Why: để giải thích tại sao?
 How:
 
-<type>[optional scope]: <>
+<type>[optional scope]: <
+    fix: fix bug cho hệ thống chore sửa lỗi cho những file người dùng không thấy bên ngoài (.gitignore)
+    feat: thêm 1 tính năng mới.
+    refactor: sửa code nhưng không fix bug cũng k thêm feature.
+    style: những thay đổi không làm thay đôi nghĩa code (css/ui).
+>
 Tại sao cần viêt commit tốt.
 
+vd:
+refactor: renamed
 [MIC-128] add new get customer api
 
 note: tim hieu file .gitignore;

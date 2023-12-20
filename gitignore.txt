@@ -1,0 +1,36 @@
+WHAT:
+    File .gitignore là một tệp văn bản đơn giản chứa một danh sách các tệp và thư mục mà Git sẽ không theo dõi. 
+
+WHO:
+    Được sử dụng bởi các nhà phát triển phần mềm để quản lý kho lưu trữ Git của họ.
+
+WHEN:
+    Được tạo khi bạn tạo một kho lưu trữ Git mới hoặc bạn có thể tạo thủ công.
+
+WHERE:
+    Được đặt trong thư mục gốc của kho lưu trữ Git.
+
+WHY:
+    Để tránh theo dõi các tệp và thư mục không cần thiết, điều này có thể làm cho kho lưu trữ của bạn gọn gàng và dễ quản lý hơn.
+
+HOW:
+    File .gitignore sử dụng các mẫu để xác định các tệp và thư mục cần bỏ qua.
+    Các mẫu có thể chỉ định tệp cụ thể, thư mục cụ thể hoặc các mẫu dựa trên ký tự đại diện.
+
+VD:
+    Bỏ qua tất cả các tệp có phần mở rộng .log
+        *.log
+
+    Bỏ qua thư mục node_modules
+        node_modules
+
+    Bỏ qua tất cả các tệp có phần mở rộng bắt đầu bằng .tmp
+        *.tmp   
+
+    Bỏ qua tất cả các tệp có phần mở rộng .DS_Store, ngay cả khi chúng nằm trong các thư mục con
+        **/.DS_Store
+
+CHÚ Ý:
+    File .gitignore là một công cụ hữu ích, nhưng bạn cần sử dụng nó một cách cẩn thận. 
+    Nếu bạn vô tình bỏ qua một tệp hoặc thư mục cần thiết, bạn có thể gặp sự cố khi cố gắng kiểm tra lại hoặc đẩy các thay đổi của mình.
+    Bạn có thể tìm thấy các mẫu .gitignore được tạo sẵn cho nhiều ngôn ngữ và môi trường phát triển khác nhau trên trang web của GitHub. Bạn cũng có thể sử dụng công cụ trực tuyến như gitignore.io để tạo tệp .gitignore của riêng mình.
